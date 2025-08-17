@@ -16,6 +16,7 @@ import javax.print.attribute.SetOfIntegerSyntax;
  
 interface TaskScheduler{
 
+
   public List<String> scheduleTasks(List<Task> tasks, int timeReached);
 }
 
